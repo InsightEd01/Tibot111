@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "types": [
+      "https://deno.land/x/supabase_deno@v1.0.5/mod.ts"
+    ]
+  }
+}

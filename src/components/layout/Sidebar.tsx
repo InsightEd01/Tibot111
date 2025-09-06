@@ -67,8 +67,8 @@ export function Sidebar() {
           <SidebarItem
             icon={<LayoutDashboard size={18} />}
             label="Dashboard"
-            href="/"
-            active={activeRoute === "/"}
+            href="/dashboard"
+            active={activeRoute === "/dashboard"}
           />
           <SidebarItem
             icon={<Calendar size={18} />}
@@ -110,12 +110,13 @@ export function Sidebar() {
       </div>
 
       <div className="border-t p-3 mt-auto">
-        <SidebarItem
-          icon={<LogOut size={18} />}
-          label="Logout"
-          href="/logout"
+        <button
           onClick={handleLogout}
-        />
+          className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-all hover:bg-accent text-muted-foreground w-full text-left"
+        >
+          <LogOut size={18} />
+          <span>Logout</span>
+        </button>
       </div>
     </div>
   );

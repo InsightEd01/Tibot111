@@ -74,3 +74,42 @@
       @apply bg-background text-foreground;
     }
   }
+
+  /* Custom animations for the hero section */
+  @keyframes pulse-slow {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  @keyframes pulse-slow-reverse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+  }
+  .animate-pulse-slow {
+    animation: pulse-slow 8s infinite ease-in-out;
+  }
+  .animate-pulse-slow-reverse {
+    animation: pulse-slow-reverse 8s infinite ease-in-out;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(2deg);
+    }
+    100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+  }
+  .animate-float {
+    animation: float 5s ease-in-out infinite;
+  }

@@ -13,7 +13,7 @@ export function Header() {
   // Determine page title based on current route
   const getPageTitle = () => {
     const path = location.pathname;
-    if (path === "/") return "Dashboard";
+    if (path === "/dashboard") return "Dashboard";
     if (path === "/timetable") return "Interactive Timetable";
     if (path === "/announcements") return "Announcement System";
     if (path === "/devices") return "Device Monitoring";

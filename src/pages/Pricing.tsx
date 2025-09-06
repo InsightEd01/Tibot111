@@ -196,7 +196,7 @@ export function Pricing() {
             </div>
             <div className="p-4 sm:p-6 rounded-xl bg-white dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700">
               <h4 className="font-semibold text-gray-900 dark:text-slate-100 text-sm sm:text-base mb-3">Timeline</h4>
-              <p className="text-gray-600 dark:text-slate-400 text-sm sm:text-base">30-40 days from site survey to full implementation, depending on campus size and complexity.</p>
+              <p className="text-gray-600 dark:text-slate-400 text-sm sm:text-base">10-30 days from site survey to full implementation, depending on campus size and complexity.</p>
             </div>
           </div>
         </div>

@@ -2,9 +2,168 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+
+    <!-- SEO Meta Tags -->
+    <title>Ti-Bot Ai - Smart School Automation System | Octa Node Engineering</title>
+    <meta name="description" content="Ti-Bot Ai makes your school super smart with advanced automation technology. Transform your educational institution with solar-powered school automation, campus communication, and safety systems. Perfect for Nigerian schools and organizations." />
+    <meta name="keywords" content="school automation, Ti-Bot Ai, smart school, solar-powered systems, campus communication, school safety, educational technology, Octa Node Engineering, Nigeria schools, automation systems" />
+    <meta name="author" content="Octa Node Engineering Ltd" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://octanode.online/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://octanode.online/" />
+    <meta property="og:title" content="Ti-Bot Ai - Smart School Automation System" />
+    <meta property="og:description" content="Transform your school with Ti-Bot Ai - advanced automation technology for safer, smarter educational environments." />
+    <meta property="og:image" content="/Tibot.png" />
+    <meta property="og:image:secure_url" content="/Tibot.png" />
+    <meta property="og:site_name" content="Ti-Bot Ai" />
+
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://octanode.online/" />
+    <meta property="twitter:title" content="Ti-Bot Ai - Smart School Automation System" />
+    <meta property="twitter:description" content="Transform your school with Ti-Bot Ai - advanced automation technology for safer, smarter educational environments." />
+    <meta property="twitter:image" content="/Tibot.png" />
+
+    <!-- Theme and App -->
+    <meta name="theme-color" content="#1e40af" />
+    <meta name="msapplication-TileColor" content="#1e40af" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Ti-Bot Ai" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/Tibot.png" />
+
+    <!-- Advanced SEO and Performance -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/favicon.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/Tibot.png" as="image" type="image/png" />
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Octa Node Engineering Ltd",
+      "alternateName": "Ti-Bot Ai",
+      "description": "Leading provider of smart school automation systems and educational technology solutions in Nigeria.",
+      "url": "https://octanode.online/",
+      "logo": "/Tibot.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+234910646157",
+        "contactType": "customer service",
+        "email": "support@octanode.online"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NG"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/octa-node-engineering"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "category": "Educational Technology",
+        "description": "Ti-Bot Ai smart school automation system with solar-powered technology"
+      }
+    }
+    </script>
+
+    <!-- Product Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Ti-Bot Ai",
+      "description": "Advanced school automation system with solar-powered technology for Nigerian schools and organizations",
+      "brand": {
+        "@type": "Brand",
+        "name": "Octa Node Engineering Ltd"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "NGN",
+        "availability": "https://schema.org/InStock"
+      },
+      "applicationCategory": "Educational Technology",
+      "operatingSystem": "Web-based",
+      "screenshot": "/Tibot.png"
+    }
+    </script>
+
+    <!-- Enhanced Open Graph -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ti-Bot Ai" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ti-Bot Ai - Smart School Automation System" />
+
+    <!-- Enhanced Twitter Cards -->
+    <meta name="twitter:creator" content="@octanodeeng" />
+    <meta name="twitter:site" content="@octanodeeng" />
+    <meta name="twitter:image:alt" content="Ti-Bot Ai - Smart School Automation System" />
+
+    <!-- Additional Meta Tags -->
+    <meta name="geo.region" content="NG" />
+    <meta name="geo.country" content="Nigeria" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Performance and Security -->
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+
+    <!-- Analytics (Replace with your tracking codes) -->
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "CLARITY_PROJECT_ID");
+    </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js')
+            .then(function(registration) {
+              console.log('SW registered: ', registration);
+            })
+            .catch(function(registrationError) {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

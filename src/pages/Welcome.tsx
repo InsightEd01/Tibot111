@@ -225,19 +225,19 @@ const Welcome: React.FC = () => {
         {/* Hero Title and Text */}
         <div className="relative z-10 p-4">
           <h1 className="relative text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[12rem] xl:text-[16rem] font-black leading-none tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-700 dark:from-slate-100 dark:to-slate-400">
-            TI-BOT
+            Ti-Bot Ai
           </h1>
-          <p className="mt-2 md:mt-4 max-w-xs sm:max-w-md md:max-w-xl mx-auto text-sm sm:text-base md:text-lg text-gray-600 dark:text-slate-300">One Intelligence is dedicated to delivering cutting-edge technology to enhance operational efficiency and create a safe, conducive learning environment for schools across Nigeria.</p>
+          <p className="mt-2 md:mt-4 max-w-xs sm:max-w-md md:max-w-xl mx-auto text-sm sm:text-base md:text-lg font-semibold text-gray-600 dark:text-slate-300">Ti-Bot Ai makes your school super smart and creates a safe, conducive learning environment for schools and organisations.</p>
         </div>
 
         {/* Hero CTAs */}
         <div className="mt-4 sm:mt-6 md:mt-8 relative z-10 flex flex-col sm:flex-row gap-3 sm:gap-4 px-4">
-          <a href="#features" className="inline-block px-6 sm:px-8 py-2 sm:py-3 bg-blue-600 text-white rounded-full font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-105 hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/30">Explore TI-BOT</a>
+          <a href="#features" className="inline-block px-6 sm:px-8 py-2 sm:py-3 bg-blue-600 text-white rounded-full font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-105 hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/30">Explore TI-Bot Ai</a>
           <button
             onClick={() => setShowTibotImage(true)}
             className="inline-block px-6 sm:px-8 py-2 sm:py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/30"
           >
-            View TI-BOT Image
+            View TI-Bot Ai Image
           </button>
           <a href="#contact" className="inline-block px-6 sm:px-8 py-2 sm:py-3 border border-gray-300 dark:border-slate-600 rounded-full text-gray-700 dark:text-slate-300 text-sm sm:text-base transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400 hover:border-blue-600 dark:hover:border-blue-400 hover:scale-105">Book Free Site Survey</a>
         </div>

@@ -126,7 +126,7 @@ export function Pricing() {
         </div>
         <div className="relative z-10 max-w-2xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-700 dark:from-slate-100 dark:to-slate-400">
-            TI-BOT Pricing
+            TI-Bot Ai Pricing
           </h1>
           <p className="mt-3 sm:mt-4 text-gray-600 dark:text-slate-300 text-sm sm:text-base md:text-lg">
             Costs depend on power arrangement and number of audio units required.
